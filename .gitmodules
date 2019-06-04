@@ -1,3 +1,0 @@
-[submodule "src/WolfSSL"]
-	path = src/WolfSSL
-url=https://github.com/wolfSSL/wolfssl.git
