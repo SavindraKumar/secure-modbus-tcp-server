@@ -1,3 +1,6 @@
 [submodule "wolfssl"]
 	path = wolfssl
 	url = https://github.com/wolfSSL/wolfssl.git
+[submodule "modbus-tcp-server"]
+	path = modbus-tcp-server
+	url = git@github.com:SavindraKumar/modbus-tcp-server.git
