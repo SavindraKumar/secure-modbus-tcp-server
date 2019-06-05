@@ -14,22 +14,27 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1651949526" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1651949526" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1651949526." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.458065019" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug.627541103" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug"/>
-							<builder buildPath="${workspace_loc:/secure-mbtcp}/Debug" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug.2011125319" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug"/>
+							<builder buildPath="${workspace_loc:/secure-mbtcp}/Debug" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug.2011125319" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1373657789" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.938073432" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1695301764" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.704269847" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
-								<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.862916131" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
-								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.201826354" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.862916131" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.201826354" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.509709031" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug">
-								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cygwin.exe.debug.option.optimization.level.1251025824" superClass="gnu.c.compiler.cygwin.exe.debug.option.optimization.level" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.cygwin.exe.debug.option.debugging.level.1020175579" superClass="gnu.c.compiler.cygwin.exe.debug.option.debugging.level" valueType="enumerated"/>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cygwin.exe.debug.option.optimization.level.1251025824" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.cygwin.exe.debug.option.debugging.level.1020175579" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.823988752" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/wolfssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/wolfssl/wolfssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/modbus-tcp-server/src/mbap}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1018682486" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1129189776" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug">
@@ -41,6 +46,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1411462572" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug"/>
 						</toolChain>
 					</folderInfo>
+					<sourceEntries>
+						<entry excluding="wolfssl/wolfcrypt/src/fe_x25519_asm.S|wolfssl/src/tls13.c|wolfssl/src/sniffer.c|wolfssl/src/ocsp.c|wolfssl/src/crl.c|wolfssl/src/bio.c|wolfssl/wolfcrypt/src/wolfmath.c|wolfssl/wolfcrypt/src/wolfevent.c|wolfssl/wolfcrypt/src/wc_pkcs11.c|wolfssl/wolfcrypt/src/srp.c|wolfssl/wolfcrypt/src/sp_x86_64.c|wolfssl/wolfcrypt/src/sp_x86_64_asm.S|wolfssl/wolfcrypt/src/sp_int.c|wolfssl/wolfcrypt/src/sp_cortexm.c|wolfssl/wolfcrypt/src/sp_c64.c|wolfssl/wolfcrypt/src/sp_c32.c|wolfssl/wolfcrypt/src/sp_armthumb.c|wolfssl/wolfcrypt/src/sp_arm64.c|wolfssl/wolfcrypt/src/sp_arm32.c|wolfssl/wolfcrypt/src/signature.c|wolfssl/wolfcrypt/src/sha512_asm.S|wolfssl/wolfcrypt/src/sha3.c|wolfssl/wolfcrypt/src/sha256_asm.S|wolfssl/wolfcrypt/src/poly1305_asm.S|wolfssl/wolfcrypt/src/pkcs12.c|wolfssl/wolfcrypt/src/idea.c|wolfssl/wolfcrypt/src/cryptocb.c|wolfssl/wolfcrypt/src/cpuid.c|wolfssl/wolfcrypt/src/cmac.c|wolfssl/wolfcrypt/src/blake2s.c|wolfssl/wolfcrypt/src/asm.c|wolfssl/wolfcrypt/src/port|wolfssl/wolfcrypt/src/chacha_asm.S|wolfssl/wolfcrypt/src/aes_gcm_asm.S|wolfssl/wolfcrypt/src/aes_asm.S|wolfssl/wolfcrypt/src/aes_asm.asm|wolfssl/wolfcrypt/user-crypto|wolfssl/wolfcrypt/test|wolfssl/wolfcrypt/benchmark|wolfssl/wrapper|wolfssl/tirtos|wolfssl/testsuite|wolfssl/tests|wolfssl/swig|wolfssl/support|wolfssl/sslSniffer|wolfssl/scripts|wolfssl/rpm|wolfssl/mqx|wolfssl/mplabx|wolfssl/mcapi|wolfssl/m4|wolfssl/lib|wolfssl/IPP|wolfssl/IDE|wolfssl/examples|wolfssl/doc|wolfssl/cyassl|wolfssl/ctaocrypt|wolfssl/certs|modbus-tcp-server/src/tcp.c|modbus-tcp-server/src/main.c|modbus-tcp-server/tests" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -62,18 +70,18 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.1023662220." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.319886229" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.exe.release.1570097433" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.exe.release"/>
-							<builder buildPath="${workspace_loc:/secure-mbtcp}/Release" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.100200684" managedBuildOn="true" name="Gnu Make Builder.Release" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
+							<builder buildPath="${workspace_loc:/secure-mbtcp}/Release" id="cdt.managedbuild.target.gnu.builder.cygwin.exe.release.100200684" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1561778714" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release">
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2068348668" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1845666558" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.545730162" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
-								<option id="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level.126665445" superClass="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
-								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level.2083323989" superClass="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level.126665445" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level.2083323989" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.591434918" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release">
-								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cygwin.exe.release.option.optimization.level.240784234" superClass="gnu.c.compiler.cygwin.exe.release.option.optimization.level" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.cygwin.exe.release.option.debugging.level.2081179948" superClass="gnu.c.compiler.cygwin.exe.release.option.debugging.level" valueType="enumerated"/>
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cygwin.exe.release.option.optimization.level.240784234" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.cygwin.exe.release.option.debugging.level.2081179948" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.91700837" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.713082861" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release">
@@ -85,6 +93,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.1307103682" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release"/>
 						</toolChain>
 					</folderInfo>
+					<sourceEntries>
+						<entry excluding="wolfssl/wolfcrypt/src/fe_x25519_asm.S|wolfssl/src/tls13.c|wolfssl/src/sniffer.c|wolfssl/src/ocsp.c|wolfssl/src/crl.c|wolfssl/src/bio.c|wolfssl/wolfcrypt/src/wolfmath.c|wolfssl/wolfcrypt/src/wolfevent.c|wolfssl/wolfcrypt/src/wc_pkcs11.c|wolfssl/wolfcrypt/src/srp.c|wolfssl/wolfcrypt/src/sp_x86_64.c|wolfssl/wolfcrypt/src/sp_x86_64_asm.S|wolfssl/wolfcrypt/src/sp_int.c|wolfssl/wolfcrypt/src/sp_cortexm.c|wolfssl/wolfcrypt/src/sp_c64.c|wolfssl/wolfcrypt/src/sp_c32.c|wolfssl/wolfcrypt/src/sp_armthumb.c|wolfssl/wolfcrypt/src/sp_arm64.c|wolfssl/wolfcrypt/src/sp_arm32.c|wolfssl/wolfcrypt/src/signature.c|wolfssl/wolfcrypt/src/sha512_asm.S|wolfssl/wolfcrypt/src/sha3.c|wolfssl/wolfcrypt/src/sha256_asm.S|wolfssl/wolfcrypt/src/poly1305_asm.S|wolfssl/wolfcrypt/src/pkcs12.c|wolfssl/wolfcrypt/src/idea.c|wolfssl/wolfcrypt/src/cryptocb.c|wolfssl/wolfcrypt/src/cpuid.c|wolfssl/wolfcrypt/src/cmac.c|wolfssl/wolfcrypt/src/blake2s.c|wolfssl/wolfcrypt/src/asm.c|wolfssl/wolfcrypt/src/port|wolfssl/wolfcrypt/src/chacha_asm.S|wolfssl/wolfcrypt/src/aes_gcm_asm.S|wolfssl/wolfcrypt/src/aes_asm.S|wolfssl/wolfcrypt/src/aes_asm.asm|wolfssl/wolfcrypt/user-crypto|wolfssl/wolfcrypt/test|wolfssl/wolfcrypt/benchmark|wolfssl/wrapper|wolfssl/tirtos|wolfssl/testsuite|wolfssl/tests|wolfssl/swig|wolfssl/support|wolfssl/sslSniffer|wolfssl/scripts|wolfssl/rpm|wolfssl/mqx|wolfssl/mplabx|wolfssl/mcapi|wolfssl/m4|wolfssl/lib|wolfssl/IPP|wolfssl/IDE|wolfssl/examples|wolfssl/doc|wolfssl/cyassl|wolfssl/ctaocrypt|wolfssl/certs|modbus-tcp-server/src/tcp.c|modbus-tcp-server/src/main.c|modbus-tcp-server/tests" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -104,4 +115,5 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
 </cproject>
